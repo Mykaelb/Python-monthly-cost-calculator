@@ -1,0 +1,17 @@
+import math
+
+def main ():
+    print('Enter your monthly costs for the following items: ')
+    L=float (input ('Loan Payment: '))
+    I=float (input ('Insurance: '))
+    G=float (input ('oil: '))
+    O=float (input ('Tires: '))
+    T=float (input ('Gas: '))
+    M=float (input ('Maintenance: '))
+    Total= L + I + G + O + T + M
+
+    print(f'Your monthly expenses are (Total)')
+
+
+
+main ()
